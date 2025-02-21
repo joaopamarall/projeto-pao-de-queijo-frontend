@@ -1,3 +1,5 @@
+import { useAuthStore } from 'path-to-auth-store-module';
+
 export const authGuard = (to, from, next) => {
   const authStore = useAuthStore()
 
